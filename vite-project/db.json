@@ -1,0 +1,76 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "iPhone 15",
+            "images": "./public/images/images.sp/iphone15-pro-max-titan-xanh.webp",
+            "oldprice": "39.000.000đ",
+            "newprice": "29.000.000đ"
+        },
+        {
+            "id": 2,
+            "title": "Samsung s24 ultra",
+            "images": "./public/images/images.sp/galaxy-s24-ultra-xam_1_3.webp",
+            "oldprice": "37.000.000đ",
+            "newprice": "26.000.000đ"
+        },
+        {
+            "id": 3,
+            "title": "Xiaomi 14 ultra",
+            "images": "./public/images/images.sp/aaa_0d334ec9bded4e0b967f073aa38b3e3b_master.webp",
+            "oldprice": "21.000.000đ",
+            "newprice": "18.000.000đ"
+        },
+        {
+            "id": 4,
+            "title": "Iphone 13 pro",
+            "images": "./public/images/images.sp/photo_2022-09-28_21-58-57_2.webp",
+            "oldprice": "21.000.000đ",
+            "newprice": "15.000.000đ"
+        },
+        {
+            "id": 5,
+            "title": "Samsung Galaxy Z Flip5",
+            "images": "./public/images/images.sp/xnah_las_1.webp",
+            "oldprice": "22.000.000đ",
+            "newprice": "18.000.000đ"
+        },
+        {
+            "id": 6,
+            "title": "Samsung Galaxy Z Flip5",
+            "images": "./public/images/images.sp/xnah_las_1.webp",
+            "oldprice": "22.000.000đ",
+            "newprice": "18.000.000đ"
+          },
+          {
+            "id": 7,
+            "title": "iPhone 15",
+            "images": "./public/images/images.sp/iphone15-pro-max-titan-xanh.webp",
+            "oldprice": "39.000.000đ",
+            "newprice": "29.000.000đ"
+        },
+        {
+            "id": 8,
+            "title": "Samsung s24 ultra",
+            "images": "./public/images/images.sp/galaxy-s24-ultra-xam_1_3.webp",
+            "oldprice": "37.000.000đ",
+            "newprice": "26.000.000đ"
+        },
+        {
+            "id": 9,
+            "title": "Xiaomi 14 ultra",
+            "images": "./public/images/images.sp/aaa_0d334ec9bded4e0b967f073aa38b3e3b_master.webp",
+            "oldprice": "21.000.000đ",
+            "newprice": "18.000.000đ"
+        },
+        {
+            "id": 10,
+            "title": "Iphone 13 pro",
+            "images": "./public/images/images.sp/photo_2022-09-28_21-58-57_2.webp",
+            "oldprice": "21.000.000đ",
+            "newprice": "15.000.000đ"
+        }
+
+    ]
+    
+}

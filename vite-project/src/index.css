@@ -1,0 +1,406 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  width: 100%;
+  height: 50px;
+  background: rgba(69, 69, 69, 1);
+  padding: 4px 0px 0px 200px;
+  display: flex;
+  position: fixed;
+  z-index: 1000;
+  transition: background 0.3s ease;
+}
+
+.transparent-header {
+  background: rgba(69, 69, 69, 0.88) !important;
+  z-index: 999;
+}
+
+.logo {
+  width: 212px;
+}
+
+.img_logo > img {
+  height: 41.14px;
+  line-height: 52;
+}
+
+nav {
+  line-height: 50px;
+  margin-left: 100px;
+}
+.active {
+  color: #088178;
+  font-size: 20px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+ul > li {
+ padding: 0px 21px;
+ font-size: 18px;
+ font-weight: 500;
+ color: #3a589d;
+ transition: .2s;
+}
+
+ul > li:hover {
+ 
+  color: #088178;
+ }
+
+
+.icons {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin-left: 280px;
+  font-size: 21px;
+  font-weight: 900;
+}
+
+.ti-search:hover {
+  color: #fff;
+}
+
+.ti-shopping-cart,
+.ti-user {
+  margin-left: 40px;
+}
+
+.ti-shopping-cart:hover,
+.ti-user:hover {
+  color: #fff;
+}
+
+.each-slide-effect > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.each-slide-effect span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+
+.chill {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.chill-img > img {
+  width: 417.9px;
+  height: 213.06px;
+  margin: 10px;
+}
+
+#iphone,
+#ipad,
+#mac,
+#watch,
+#tainghe {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.iphones {
+  display: flex;
+  justify-items: center;
+  flex-wrap: wrap;
+  padding: 0px 0px 0px 30px;
+}
+
+.iphone-sp {
+  border: 1px solid #e8f6ea;
+  width: 268.13px;
+  margin-left: 15px;
+  background: #fff;
+  border-radius: 15px;
+  margin-bottom: 50px;
+  transition: box-shadow 0.3s ease-in-out;
+  margin-top: 30px;
+}
+
+.iphone-sp:hover {
+  box-shadow: 0 0 10px 5px rgba(128, 128, 128, 0.7);
+}
+
+.img-sp > img {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 248.52px;
+  height: 268.52px;
+  cursor: pointer;
+}
+
+.name-sp {
+  font-weight: 600;
+  font-family: monospace;
+  font-size: 16px;
+  margin-left: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.giasp {
+  display: flex;
+  margin-top: 15px;
+}
+
+.giacu-sp {
+  color: #d2d2d7;
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.gianew-sp {
+  margin-left: 15px;
+  color: brown;
+  font-weight: 600;
+}
+
+.button-sp {
+  margin-bottom: 20px;
+}
+
+button.ti-shopping-cart {
+  width: 30px;
+  height: 30px;
+  background: #e8f6ea;
+  color: #088178;
+  border: none;
+  margin-top: 10px;
+  border-radius: 2px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+button.ti-shopping-cart:hover {
+  background: #088178;
+  color: #fff;
+  cursor: pointer;
+}
+
+button.dathang {
+  margin-left: 15px;
+  width: 140px;
+  font-size: 16px;
+  height: 30px;
+  background: #e8f6ea;
+  border: none;
+  color: #088178;
+  border-radius: 10px 0px 10px 0px;
+  transition: 0.3s;
+}
+
+button.dathang:hover {
+  background: #088178;
+  color: #fff;
+  cursor: pointer;
+}
+
+button.xemsp-ip,
+button.xemsp-ipad {
+  width: 226.83px;
+  height: 39.6px;
+  color: #0066cc;
+  border: 0.5px solid #0066cc;
+  font-size: 15px;
+  margin-left: 650px;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+button.xemsp-ip:hover,
+button.xemsp-ipad:hover {
+  background: #0066cc;
+  color: #fff;
+  font-weight: 500;
+}
+
+
+
+.newtintuc {
+  display: flex;
+  justify-content: center;
+}
+
+.tintuc {
+  width: 377.5px;
+  height: 395.74px;
+  background: #fff;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.img-tintuc > img {
+  width: 100%;
+  height: 226.74px;
+  border-radius: 10px 10px 0px 0px;
+  cursor: pointer;
+}
+
+.nametintuc > p {
+  font-size: 18px;
+  margin-left: 10px;
+  margin-top: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.timett {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 18px;
+  color: #d2d2d7;
+}
+
+.boxs-ctsp {
+  width: 80%;
+  height: 675.06px;
+  border: 0px solid black;
+  margin: 100px 0px 0px 150px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-ctsps {
+  width: 50%;
+  height: 100%;
+  border: 0px solid black;
+}
+
+.box-ctsp {
+  width: 100%;
+  height: 570px;
+  border: 0px solid black;
+  padding: 22px 0px 0px 22px;
+  background-color: #F3F3F3;
+}
+
+.box-ctsp-img {
+  width: 96%;
+  height: 96%;
+  border: 0px solid black;
+  text-align: center;   
+  overflow: hidden;
+}
+
+.box-ctsp-img > img {
+  
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.box-ctsp-imgs {
+  width: 100%;
+  height: 102px;
+  border: 0px solid black;
+  display: flex;
+}
+
+.box-ctsp-images {
+  width: 96.66px;
+  height: 90px;
+  border: 1px solid #ccc;
+  margin: 5px 0px 0px 20px;
+  border-radius: 8px;
+}
+
+.box-ctsp-images > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-name-sp {
+  width: 100%;
+  height: 45px;
+  border: 0px solid black;
+  padding: 0px 0px 0px 20px;
+}
+
+.product-price-sp {
+  width: 100%;
+  height: 45px;
+  border: 0px solid black;
+  display: flex;
+}
+
+.text-product-name {
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.oldprice {
+   margin-left: 20px;
+}
+.newprice {
+  margin-left: 20px;
+  color: crimson;
+}
+
+.product-description-sp {
+  margin-left: 20px;
+  width: 94%;
+  height: 145px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex-wrap: wrap;
+  
+}
+
+.description {
+  color: dodgerblue;
+}
+
+.text-description {
+  
+}
+
+.color-product-sp {
+  width: 100%;
+  height: 326px;
+  border: 0px solid black;
+  padding: 0px 0px 0px 20px;
+  margin-top: 112px;
+}
+
+.button-add-card .add-card {
+  width: 96%;
+  height: 56px;
+  border: 1px solid green;
+  border-radius: 5px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #F3F3F3;
+  color: #ccc;
+  transition: .2s;
+}
+
+
+.button-add-card .add-card:hover {
+ border: 1px solid #fff;
+ background-color: mediumseagreen;
+ color: #fff;
+}
