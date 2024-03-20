@@ -11,7 +11,6 @@ const ProductList = () => {
     fetch('http://localhost:3002/products')
       .then((res) => res.json())
       .then((data) => {
-        console.log(data)
         setProducts(data) // Cập nhật state 'products' với dữ liệu nhận được từ fetch
       })
   }, []);

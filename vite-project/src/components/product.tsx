@@ -1,8 +1,8 @@
-import React from 'react'
+
 import { useLocation } from 'react-router-dom';
 import { productType } from '~/interfaces/product';
 
-const ProductPage: React.FC = () => {
+const ProductPage = () => {
   const location = useLocation();
 
   const product: productType = location.state;
@@ -16,16 +16,16 @@ const ProductPage: React.FC = () => {
       </div>
       <div className="box-ctsp-imgs">
         <div className="box-ctsp-images">
-          <img src={product.images} alt="" />
+          <img src="" alt="" />
         </div>
         <div className="box-ctsp-images">
-          <img src={product.images} alt="" />
+          <img src="" alt="" />
         </div>
         <div className="box-ctsp-images">
-          <img src={product.images} alt="" />
+          <img src="" alt="" />
         </div>
         <div className="box-ctsp-images">
-          <img src={product.images} alt="" />
+          <img src="" alt="" />
         </div>
       </div>
     </div>
@@ -66,7 +66,7 @@ const ProductPage: React.FC = () => {
         </div>
       </div>
     </div>
-  </div> 
+  </div>
   )
 }
-export default ProductPage
+export default ProductPage;
